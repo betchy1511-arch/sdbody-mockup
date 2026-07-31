@@ -985,6 +985,9 @@ html,body{overflow-x:clip}
 .fb-h{font-family:"Prata",Georgia,serif;font-weight:400;font-size:clamp(1.9rem,4vw,2.7rem);color:#fff;line-height:1.14;margin:0 0 20px}
 .fb-copy p{color:rgba(255,255,255,.86);line-height:1.8;font-size:16px;margin:0 auto 14px;max-width:64ch}
 .fb-copy p:last-child{margin-bottom:0}
+/* section-end CTA pair */
+.sec-cta{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:32px}
+@media (max-width:520px){.sec-cta{flex-direction:column;align-items:stretch}.sec-cta .btn{justify-content:center}}
 /* goals accordion: one row per goal, image + copy revealed on open */
 .goal-acc{max-width:1180px;margin:20px auto 0}
 .goal-acc details{border-top:1px solid rgba(28,40,67,.16)}
